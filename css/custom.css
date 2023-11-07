@@ -1,0 +1,79 @@
+@import url(../bootstrap-5.3.2-dist/css/bootstrap.min.css);
+.h1,
+h1 {
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 160px;
+  font-weight: 900;
+  line-height: 90%;
+  text-transform: uppercase;
+}
+
+.h2,
+h2 {
+  color: #d60058;
+  font-family: "Exo 2";
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 90%;
+  text-transform: uppercase;
+}
+
+.h3,
+h3 {
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+
+.text-def {
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 400;
+}
+.text-def_uppercase {
+  text-transform: uppercase;
+}
+.text-def_bold {
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-color: #00205b !important;
+}
+
+.btn {
+  --bs-btn-padding-x: 24px;
+  --bs-btn-padding-y: 16px;
+  position: relative;
+}
+.btn::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: #fff 1px solid;
+  transform: skew(-30deg);
+}
+
+.navbar {
+  --bs-navbar-padding-y: 1.5rem;
+}
+
+.main {
+  margin-top: 120px;
+  height: 900px;
+  background-image: url(../img/png/main.png);
+  background-size: cover;
+}
+
+.content {
+  padding: 12rem 0 12rem 0;
+  margin-top: -2rem;
+}

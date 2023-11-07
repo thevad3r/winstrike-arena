@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winstrike Arena</title>
+    <link rel="shortcut icon" href="img/svg/logo.svg" type="image/x-icon">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-primary">
+    <nav class="navbar fixed-top navbar-expand-lg bg-primary">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="img/svg/logo.svg" width="80px" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav gap-4 me-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link p p_uppercase">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link p p_uppercase">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link p p_uppercase">Прайс лист</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link p p_uppercase">Ивенты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link p p_uppercase">Клубы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link p p_uppercase">Контакты</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn p p_uppercase p_bold" data-bs-toggle="modal"
+                    data-bs-target="#callModal">Заказать звонок</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main d-flex align-items-center">
+        <div class="container">
+            <div class="d-flex flex-column align-items-start gap-5 col-8">
+                <h1>
+                    Winstrike
+                    Arena
+                </h1>
+                <button class="btn p p_uppercase p_bold">Забронировать</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="content bg-primary rounded-5">
+        <div class="d-flex flex-column gap-6 container">
+            <section class="d-flex flex-column flex-sm-row justify-content-between align-items-start gap-4">
+                <div class="d-flex flex-column gap-5 col-12 col-sm-5">
+                    <h2>О нас</h2>
+                    <div class="d-flex flex-column gap-3">
+                        <h6>WINSTRIKE ARENA — многофункциональный комплекс игровой тематики.</h6>
+                        <p>Арена оснащена передовым оборудованием, создана с учётом потребностей настоящих геймеров.
+                            Звукоизолированные кабинки для игроков, профессиональный звук и свет, возможность проводить
+                            турниры международного уровня.</p>
+                    </div>
+                </div>
+
+                <div class="accordion d-flex flex-column gap-3 rounded-5 col-12 col-sm-6" id="accordion1">
+                    <div class="accordion-item" style="background-image: url(img/png/slide11.png);">
+                        <h2 class="accordion-header" id="headingOne1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne1" aria-expanded="true"
+                                aria-controls="collapseOne1"></button>
+                        </h2>
+                        <div id="collapseOne1" class="accordion-collapse collapse show" aria-labelledby="headingOne1"
+                            data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background-image: url(img/png/slide21.png);">
+                        <h2 class="accordion-header" id="headingTwo1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo1" aria-expanded="false"
+                                aria-controls="collapseTwo1"></button>
+                        </h2>
+                        <div id="collapseTwo1" class="accordion-collapse collapse" aria-labelledby="headingTwo1"
+                            data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background-image: url(img/png/slide31.png);">
+                        <h2 class="accordion-header" id="headingThree1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree1" aria-expanded="false"
+                                aria-controls="collapseThree1"></button>
+                        </h2>
+                        <div id="collapseThree1" class="accordion-collapse collapse" aria-labelledby="headingThree1"
+                            data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="d-flex flex-column gap-6">
+                <div class="d-flex flex-column gap-5">
+                    <div class="d-flex flex-column">
+                        <h2>Услуги</h2>
+                        <h3>Общие залы</h3>
+                    </div>
+
+                    <div class="accordion accordion_no-arrow d-flex flex-column gap-3 rounded-5" id="accordion2">
+                        <div class="accordion-item" style="background-image: url(img/png/slide12.png);">
+                            <div class="accordion-item__background"></div>
+                            <h2 class="accordion-header" id="headingOne2">
+                                <button class="accordion-button h4" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne2" aria-expanded="true"
+                                    aria-controls="collapseOne2">Masters</button>
+                            </h2>
+                            <div id="collapseOne2" class="accordion-collapse collapse show"
+                                aria-labelledby="headingOne2" data-bs-parent="#accordion2">
+                                <div id="slide12" class="accordion-body d-flex flex-column align-items-start gap-5">
+                                    <div class="d-flex flex-column gap-4 col-6">
+                                        <div>Для тех, кто предпочитает максимальные настройки и яркие эмоции.</div>
+                                        <div class="d-flex flex-column gap-3">
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _monitor_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Nvidia GeForce RTX 2060</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _processor_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Intel Core I7‑9700K</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _keyboard_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Logitech G413</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _mouse_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Logitech G403 Hero</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _headphone_.svg" alt="">
+                                                <div class="p_bold p_uppercase">HyperX Cloud Silver</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn p p_uppercase p_bold">Забронировать</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" style="background-image: url(img/png/slide22.png);">
+                            <div class="accordion-item__background"></div>
+                            <h2 class="accordion-header" id="headingTwo2">
+                                <button class="accordion-button h4 collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo2" aria-expanded="false"
+                                    aria-controls="collapseTwo2">СЕКТОР SEMI-PRO</button>
+                            </h2>
+                            <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2"
+                                data-bs-parent="#accordion2">
+                                <div id="slide22" class="accordion-body d-flex flex-column align-items-start gap-5">
+                                    <div class="d-flex flex-column gap-4 col-6">
+                                        <div>Для тех, кто готов соревноваться на высшем уровне.</div>
+                                        <div class="d-flex flex-column gap-3">
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _monitor_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Nvidia GeForce RTX 2090</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _processor_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Intel Core I7‑9700K</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _keyboard_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Logitech G413</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _mouse_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Logitech G403 Hero</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _headphone_.svg" alt="">
+                                                <div class="p_bold p_uppercase">HyperX Cloud II</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn p p_uppercase p_bold">Забронировать</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" style="background-image: url(img/png/slide32.png);">
+                            <div class="accordion-item__background"></div>
+                            <h2 class="accordion-header" id="headingThree2">
+                                <button class="accordion-button h4 collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree2" aria-expanded="false"
+                                    aria-controls="collapseThree2">СЕКТОР PRO</button>
+                            </h2>
+                            <div id="collapseThree2" class="accordion-collapse collapse" aria-labelledby="headingThree2"
+                                data-bs-parent="#accordion2">
+                                <div id="slide32" class="accordion-body d-flex flex-column align-items-start gap-5">
+                                    <div class="d-flex flex-column gap-4 col-6">
+                                        <div>Для тех, кто хочет связать свою жизнь с киберспортом.</div>
+                                        <div class="d-flex flex-column gap-3">
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _monitor_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Nvidia GeForce RTX 3090</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _processor_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Intel Core I7‑9700K</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _keyboard_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Logitech G413</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _mouse_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Logitech G403 Hero</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _headphone_.svg" alt="">
+                                                <div class="p_bold p_uppercase">HyperX Cloud II</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn p p_uppercase p_bold">Забронировать</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column gap-5">
+                    <h3>Особые услуги</h3>
+
+                    <div class="accordion accordion_no-arrow d-flex flex-column gap-3 rounded-5" id="accordion3">
+                        <div class="accordion-item" style="background-image: url(img/png/slide13.png);">
+                            <div class="accordion-item__background"></div>
+                            <h2 class="accordion-header" id="headingOne3">
+                                <button class="accordion-button h4" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne3" aria-expanded="false"
+                                    aria-controls="collapseOne3">Буткемпы</button>
+                            </h2>
+                            <div id="collapseOne3" class="accordion-collapse collapse" aria-labelledby="headingOne3"
+                                data-bs-parent="#accordion3">
+                                <div id="slide13" class="accordion-body d-flex flex-column align-items-start gap-5">
+                                    <div class="d-flex flex-column gap-4 col-6">
+                                        <div>Настоящая киберспортивная база, готовьтесь к турнирам в идеальных условия:
+                                            персональный
+                                            менеджер, организация питания, круглосуточный доступ в арену.</div>
+                                        <div class="d-flex flex-column gap-3">
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _monitor_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Nvidia GeForce RTX 3090</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _processor_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Intel Core I5‑11400F</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _keyboard_.svg" alt="">
+                                                <div class="p_bold p_uppercase">HyperX Alloy Origins</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _mouse_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Logitech G403 Hero</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _headphone_.svg" alt="">
+                                                <div class="p_bold p_uppercase">HyperX Cloud II</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn p p_uppercase p_bold">Забронировать</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" style="background-image: url(img/png/slide23.png);">
+                            <div class="accordion-item__background"></div>
+                            <h2 class="accordion-header" id="headingTwo3">
+                                <button class="accordion-button h4 collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo3" aria-expanded="false"
+                                    aria-controls="collapseTwo3">Дни рождения</button>
+                            </h2>
+                            <div id="collapseTwo3" class="accordion-collapse collapse" aria-labelledby="headingTwo3"
+                                data-bs-parent="#accordion3">
+                                <div id="slide23" class="accordion-body d-flex flex-column align-items-start gap-5">
+                                    <div class="col-6">Наслаждайся любимыми компьютерными играми, расслабляйся,
+                                        заряжайся положительными
+                                        эмоциями и весело проводи время в компании друзей и родных.</div>
+                                    <button class="btn p p_uppercase p_bold">Забронировать</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" style="background-image: url(img/png/slide33.png);">
+                            <div class="accordion-item__background"></div>
+                            <h2 class="accordion-header" id="headingThree3">
+                                <button class="accordion-button h4 collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree3" aria-expanded="false"
+                                    aria-controls="collapseThree3">Снек-бар</button>
+                            </h2>
+                            <div id="collapseThree3" class="accordion-collapse collapse" aria-labelledby="headingThree3"
+                                data-bs-parent="#accordion3">
+                                <div id="slide33" class="accordion-body d-flex flex-column align-items-start gap-5">
+                                    <div class="col-6">Еда на любой вкус: от батончика до чебупелей и венского шницеля,
+                                        а также огромное
+                                        разнообразие безалкогольных напитков.</div>
+                                    <button class="btn p p_uppercase p_bold">Меню</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" style="background-image: url(img/png/slide43.png);">
+                            <div class="accordion-item__background"></div>
+                            <h2 class="accordion-header" id="headingFour3">
+                                <button class="accordion-button h4 collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour3" aria-expanded="true"
+                                    aria-controls="collapseFour3">VIP-ROOM</button>
+                            </h2>
+                            <div id="collapseFour3" class="accordion-collapse collapse show"
+                                aria-labelledby="headingFour3" data-bs-parent="#accordion3">
+                                <div id="slide33" class="accordion-body d-flex flex-column align-items-start gap-5">
+                                    <div class="d-flex flex-column gap-4 col-6">
+                                        <div>Звукоизолированные кабинки на 5 и 10 мест, подходящие как для дружеских
+                                            каток,
+                                            так и для тренировок профессиональных
+                                            команд.</div>
+                                        <div class="d-flex flex-column gap-3">
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _monitor_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Nvidia GeForce RTX 3060</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _processor_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Intel Core I5‑11400F</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _keyboard_.svg" alt="">
+                                                <div class="p_bold p_uppercase">HyperX Alloy Origins</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _mouse_.svg" alt="">
+                                                <div class="p_bold p_uppercase">Logitech G403 Hero</div>
+                                            </div>
+                                            <div class="param">
+                                                <img class="icon" src="img/svg/icon _headphone_.svg" alt="">
+                                                <div class="p_bold p_uppercase">HyperX Cloud II</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn p p_uppercase p_bold">Забронировать</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="d-flex flex-column gap-5">
+                <h2>Прайс лист</h2>
+
+                <div class="price-list grid" style="--bs-columns: 6; --bs-rows: 5; --bs-gap: 3rem;">
+                    <div class="header">
+                        <p class="p p_bold">Зал</p>
+                        <p class="p p_bold">1 час</p>
+                        <p class="p p_bold">3 часа</p>
+                        <p class="p p_bold">5 часов</p>
+                        <div class="p">
+                            <p class="p p_bold">Ночной пакет</p>
+                            <p class="p">(22:00–10:00)</p>
+                        </div>
+                        <p class="p p_bold">12 часов</p>
+                    </div>
+                    <div class="line">
+                        <h4 class="h4 h4_pink">Masters</h4>
+                        <p>140 ₽</p>
+                        <p>320 ₽</p>
+                        <p>500 ₽</p>
+                        <p>700 ₽</p>
+                        <p>950 ₽</p>
+                    </div>
+                    <div class="line">
+                        <h4 class="h4 h4_pink">СЕКТОР SEMI-PRO</h4>
+                        <p>150 ₽</p>
+                        <p>350 ₽</p>
+                        <p>550 ₽</p>
+                        <p>800 ₽</p>
+                        <p>1100 ₽</p>
+                    </div>
+                    <div class="line">
+                        <h4 class="h4 h4_pink">СЕКТОР PRO</h4>
+                        <p>160 ₽</p>
+                        <p>380 ₽</p>
+                        <p>600 ₽</p>
+                        <p>900 ₽</p>
+                        <p>1200 ₽</p>
+                    </div>
+                    <div class="line">
+                        <h4 class="h4 h4_pink">VIP</h4>
+                        <p>240 ₽</p>
+                        <p>500 ₽</p>
+                        <p>800 ₽</p>
+                        <p>1200 ₽</p>
+                        <p>1200 ₽</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="d-flex flex-column gap-5">
+                <h2>Клубы</h2>
+
+                <div class="d-flex flex-column gap-4 flex-sm-row justify-content-between">
+                    <img class="rounded-5 col-sm-7" src="img/png/map.png" alt="">
+
+                    <form class="d-flex flex-column justify-content-between gap-4 col-sm-4 needs-validation" novalidate>
+                        <div class="d-flex flex-column gap-4">
+                            <div class="d-flex flex-column gap-3">
+                                <h4>Забронируй место</h4>
+                                <p>Оставь заявку и мы поможем выбрать и забронировать место.</p>
+                            </div>
+
+                            <div class="d-flex flex-column gap-3">
+                                <div>
+                                    <p class="form-label">Выбери клуб</p>
+                                    <div class="d-flex flex-wrap gap-2" id="inputPlace">
+                                        <input type="radio" class="btn-check" name="options-base" id="option1"
+                                            autocomplete="off" checked>
+                                        <label class="btn btn_rounded p p_uppercase p_bold" for="option1">Москва</label>
+
+                                        <input type="radio" class="btn-check" name="options-base" id="option2"
+                                            autocomplete="off">
+                                        <label class="btn btn_rounded p p_uppercase p_bold"
+                                            for="option2">Новокосино</label>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="inputName" class="form-label">Введи имя</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="Имя" required>
+                                    <div class="invalid-feedback">Пожалуйста, введи имя</div>
+                                </div>
+
+                                <div>
+                                    <label for="inputPhoneNumber" class="form-label">Введи номер</label>
+                                    <input type="tel" class="form-control" id="inputPhoneNumber" pattern="\+7\d{10}"
+                                        maxlength="12" placeholder="+7 ___ ___ __ __" required>
+                                    <div class="invalid-feedback">Пожалуйста, введи номер</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn p p_uppercase p_bold align-self-start" type="submit">Заказать звонок</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="d-none d-sm-flex flex-column gap-5">
+                <h2>Ивенты</h2>
+
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner rounded-5">
+                        <div class="carousel-item active">
+                            <div class="carousel-card d-flex align-items-center"
+                                style="background-image: url(img/png/photo1.png)">
+                                <div class="d-flex flex-column gap-4 align-items-start col-12 col-lg-6">
+                                    <h4>WINSTRIKE MASTERS</h4>
+                                    <p>Winstrike Masters — это единственные в России LAN-турниры по дисциплине CS:GO
+                                        в формате 5х5 с призовым фондом более 2
+                                        200 000 рублей и ценными призами для участников.</p>
+                                    <button class="btn p p_bold p_uppercase">Записаться</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-card d-flex align-items-center"
+                                style="background-image: url(img/png/photo2.png)">
+                                <div class="d-flex flex-column gap-4 align-items-start col-12 col-lg-6">
+                                    <h4>Dota 2 Amateur Cup</h4>
+                                    <p>Dota 2 Amateur Cup - это турнир для любителей игры. Участники смогут
+                                        посоревноваться в командном формате и показать свои
+                                        навыки в игре. Турнир будет проходить в онлайн-формате, что позволит участвовать
+                                        игрокам из разных городов и стран.
+                                        Призовой фонд составляет 100 000 рублей.</p>
+                                    <button class="btn p p_bold p_uppercase">Записаться</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-card d-flex align-items-center"
+                                style="background-image: url(img/png/photo3.png)">
+                                <div class="d-flex flex-column gap-4 align-items-start col-12 col-lg-6">
+                                    <h4>МСКЛ+. League of Legends</h4>
+                                    <p>МСКЛ - Московская Студенческая Киберспортивная Лига — это объединение, в котором
+                                        мы проводим соревнования для студентов со всей
+                                        страны!</p>
+                                    <button class="btn p p_bold p_uppercase">Записаться</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="d-flex flex-column gap-5">
+                <h2>Контакты</h2>
+
+                <div class="d-flex flex-column gap-4">
+                    <div class="d-flex flex-column flex-md-row gap-4">
+                        <div class="bg-secondary d-flex flex-column gap-4 rounded-5 p-5 w-100">
+                            <div class="d-flex flex-column">
+                                <p class="p p_bold p_uppercase m-0">Winstrike Arena</p>
+                                <h4>Москва</h4>
+                            </div>
+
+                            <div class="d-flex flex-column gap-3">
+                                <div class="param">
+                                    <img class="icon" src="img/svg/icon _home_.svg" alt="">
+                                    <div class="p">Москва, м.Лубянка, ЦДМ, Театральный пр., 5, стр. 1</div>
+                                </div>
+                                <div class="param">
+                                    <img class="icon" src="img/svg/icon _call_.svg" alt="">
+                                    <div class="p">+7 800 444 13 22</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-secondary d-flex flex-column gap-4 rounded-5 p-5 w-100">
+                            <div class="d-flex flex-column">
+                                <p class="p p_bold p_uppercase m-0">Winstrike Arena</p>
+                                <h4>Новокосино</h4>
+                            </div>
+
+                            <div class="d-flex flex-column gap-3">
+                                <div class="param">
+                                    <img class="icon" src="img/svg/icon _home_.svg" alt="">
+                                    <div class="p">Москва, м.Новокосино, Новокосинская ул., д. 36Б</div>
+                                </div>
+                                <div class="param">
+                                    <img class="icon" src="img/svg/icon _call_.svg" alt="">
+                                    <div class="p">+7 800 444 13 22 доб. 107</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column gap-4 flex-sm-row justify-content-between">
+                        <div class="d-flex flex-column flex-sm-row gap-4">
+                            <div>
+                                <p class="p p_bold p_uppercase">Сотрудничество</p>
+                                <div class="param">
+                                    <img class="icon" src="img/svg/icon _sms_.svg" alt="">
+                                    <div class="p">ad@winstrike.gg</div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="p p_bold p_uppercase">Реклама и мероприятия</p>
+                                <div class="param">
+                                    <img class="icon" src="img/svg/icon _sms_.svg" alt="">
+                                    <div class="p">info@winstrike.gg</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column align-items-sm-end">
+                            <p class="p p_bold p_uppercase">Социальные сети</p>
+                            <div class="d-flex gap-2">
+                                <a href=""><img class="icon" src="img/svg/icon vk.svg" alt=""></a>
+                                <a href=""><img class="icon" src="img/svg/icon tg.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="bg-secondary">
+        <div class="container d-flex flex-wrap align-items-center justify-content-between gap-4">
+            <div class="col-12 col-xl-4">
+                <img class="col-6 col-xl-12" src="img/png/logo-full.png" alt="">
+                <div class="param">
+                    <img class="icon" src="img/svg/icon _call_.svg" alt="">
+                    <div class="p">+7 800 444 13 22</div>
+                </div>
+            </div>
+            <div class="d-flex gap-5">
+                <div class="d-flex flex-column gap-2">
+                    <a class="p" href="">Политика конфидециальности</a>
+                    <a class="p" href="">Согласие на обработку ПД</a>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                    <a class="p" href="">Правила WINSTRIKE ARENA</a>
+                    <a class="p" href="">Оферта. Турниры</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bg-primary">
+        <p class="container p-3 mb-0 p p_uppercase">Copyright © 2023 WINSTRIKE</p>
+    </div>
+
+    <div class="modal fade" id="callModal" tabindex="-1" aria-labelledby="callModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <form class="modal-content rounded-5 needs-validation" novalidate>
+                <div class="modal-header">
+                    <h4 class="modal-title" id="callModalLabel">Узнай больше</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column gap-4">
+                    <div>
+                        <label for="inputNameModal" class="form-label">Введи имя</label>
+                        <input type="text" class="form-control" id="inputNameModal" placeholder="Имя" required>
+                        <div class="invalid-feedback">Пожалуйста, введи имя</div>
+                    </div>
+
+                    <div>
+                        <label for="inputPhoneNumberModal" class="form-label">Введи номер</label>
+                        <input type="tel" class="form-control" id="inputPhoneNumberModal" pattern="\+7\d{10}"
+                            maxlength="12" placeholder="+7 ___ ___ __ __" required>
+                        <div class="invalid-feedback">Пожалуйста, введи номер</div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn p p_uppercase p_bold" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="submit" class="btn p p_uppercase p_bold">Заказать звонок</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Подписывайся на наши соц. сети!</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body d-flex flex-column gap-3">
+                <a href="" class="param">
+                    <img class="icon" src="img/svg/icon vk.svg" alt="">
+                    <div class="p">ВКонтакте</div>
+                </a>
+                <a href="" class="param">
+                    <img class="icon" src="img/svg/icon tg.svg" alt="">
+                    <div class="p">Телеграм</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
